@@ -15,7 +15,7 @@ import pandas as pd
 sal = df.read_csv('Salaries.csv')
 print = sal
 ```
-### 3) Find the number of entries
+#### 3) Find the number of entries
 ```python
 sal.info()
 ```
