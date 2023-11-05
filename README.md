@@ -35,3 +35,8 @@ sal['BasePay'].mean()
 sal['OvertimePay'].max()
 ```
 
+#### 6) Find Job title of Joseph Driscoll
+```python
+sal[sal['EmployeeName'] == 'JOSEPH DRISCOLL'] ['JobTitle']
+```
+
