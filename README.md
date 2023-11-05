@@ -28,4 +28,6 @@ sal.info()
 ```python
 sal['BasePay'].mean()
 ```
+-- The average BasePay is 66325.4488404877
+
 
