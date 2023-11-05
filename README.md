@@ -15,7 +15,17 @@ import pandas as pd
 sal = df.read_csv('Salaries.csv')
 print = sal
 ```
+![1](https://github.com/Yuanlli/SF-Employee-Salary-Python-Data-Analysis/assets/35889216/720c6b4e-dac8-4e00-a349-d7f4e6e5ea32)
+
+
 #### 3) Find the number of entries
 ```python
 sal.info()
 ```
+![Capture2](https://github.com/Yuanlli/SF-Employee-Salary-Python-Data-Analysis/assets/35889216/5ac1010f-86d6-439c-98f0-4673cd0a9b16)
+
+#### 4) Find average base pay
+```python
+sal['BasePay'].mean()
+```
+
