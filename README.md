@@ -39,4 +39,8 @@ sal['OvertimePay'].max()
 ```python
 sal[sal['EmployeeName'] == 'JOSEPH DRISCOLL'] ['JobTitle']
 ```
+### 7) How much money does Jooseph Dirscoll earn?
+```python
+sal[sal['BasePay']== 'JOSEPH DRISCOLL']
+```
 
